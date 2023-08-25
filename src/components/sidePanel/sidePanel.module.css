@@ -1,0 +1,20 @@
+.container {
+  min-height: 100vh;
+  width: 20%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.logoContainer {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.logo {
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+}

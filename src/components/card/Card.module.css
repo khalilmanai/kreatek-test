@@ -1,0 +1,57 @@
+.container {
+  position: relative;
+  width: 300px;
+  height: 160px;
+  background-color: transparent;
+  border: 0.1em solid black;
+  margin: 20px;
+  border-radius: 0.75em;
+  cursor: pointer;
+  color: black;
+}
+.content {
+  margin: 10px;
+}
+.header {
+  display: flex;
+
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.checkbox {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 10px;
+  border-radius: 0.75em;
+  cursor: pointer;
+  border: none;
+  background-color: #03c03c;
+}
+.button:hover {
+  background-color: #177245;
+}
+
+.bottomBox {
+  display: flex;
+  position: absolute;
+  left: 10px;
+  bottom: 12px;
+  gap: 10px;
+  align-items: center;
+}
+.panel {
+  padding: 5px;
+}

@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  gap: 10px;
+  margin: 20px;
+  border: 0.1em solid black;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  transition: background-color 1s, color 1s;
+}
+
+.container:hover {
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .text {
+    display: none;
+  }
+}
